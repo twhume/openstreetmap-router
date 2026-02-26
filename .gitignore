@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+
+# Data files (large OSM/graph files)
+data/*.osm.pbf
+data/*.bin
+data/*.npz
+data/*.db
+data/*.json
+
+# Swift
+swift-router/.build/
+swift-router/.swiftpm/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
